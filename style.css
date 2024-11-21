@@ -1,0 +1,184 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Sticky Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* About Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Programming Languages Section */
+#languages {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#languages ul {
+    list-style-type: none;
+}
+
+#languages li {
+    font-size: 1.2em;
+}
+
+/* Education Section */
+#education {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1em;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: #ccc;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #4CAF50; /* Green background */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    color: #0056b3; /* Darker blue when hovered */
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
