@@ -11,7 +11,7 @@ Welcome to my personal portfolio website! This project was built to showcase my 
 - *Contact Form:* A functional form to let people send me messages easily.
 
 ## 🌐 Live Demo
-Visit my portfolio here: https://github.com/Noor3600/SafaricomHookHackathon1-Group18.git
+Visit my portfolio here: https://noor3600.github.io/SafaricomHookHackathon1-Group18/
 
 ## 🛠 Tech Stack
 - *HTML:* Used for structuring the content.
